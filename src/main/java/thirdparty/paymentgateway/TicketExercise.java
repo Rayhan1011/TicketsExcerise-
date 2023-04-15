@@ -35,7 +35,6 @@ public class TicketExercise {
 
         }
 
-
 // ChildTicket class
 
         class ChildTicket {
@@ -61,7 +60,6 @@ public class TicketExercise {
             return;
         }
 
-
 //entering prompt for number of infants attending
         System.out.println("How many infants will be attending?");
 //reading the user input
@@ -85,7 +83,6 @@ public class TicketExercise {
             System.out.println("Sorry. You are buying more than " + numberOfTickets + " tickets");
             return;
         }
-
 
 // displaying to the user how much they have requested
         System.out.println("You have requested " + numberOfInfants + " Infant tickets, " + numberOfChilds + " Child tickets and " + numberOfAdults + " Adult tickets");
