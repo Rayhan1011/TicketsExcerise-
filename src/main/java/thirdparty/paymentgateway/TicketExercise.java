@@ -7,6 +7,10 @@ import java.util.Scanner;
 
 public class TicketExercise {
 
+    public TicketExercise(Scanner scanner, TicketPaymentService paymentService, SeatReservationService reservationService) {
+
+    }
+
     public static void main(String[] args) {
 
 // AdultTicket class
@@ -139,6 +143,12 @@ public class TicketExercise {
 
     }
 
+    public void purchaseAndReserveTicket() {
+    }
+
+    public String getErrorMsg() {
+        return null;
+    }
 }
 
 

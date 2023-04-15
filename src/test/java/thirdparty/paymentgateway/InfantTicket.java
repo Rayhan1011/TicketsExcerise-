@@ -2,11 +2,11 @@ package thirdparty.paymentgateway;
 
 
     class InfantTicket {
-        private int price;
+        private static int price;
         public InfantTicket() {
             this.price = 0; // price for infant ticket is 0
         }
-        public int getPrice() {
+        public static int getPrice() {
             return price;
         }
 
