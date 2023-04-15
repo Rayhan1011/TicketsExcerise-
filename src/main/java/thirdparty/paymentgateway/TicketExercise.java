@@ -5,7 +5,7 @@ import thirdparty.seatbooking.SeatReservationServiceImpl;
 
 import java.util.Scanner;
 
-public class NumberOfTicketsAB {
+public class TicketExercise {
 
     public static void main(String[] args) {
 
